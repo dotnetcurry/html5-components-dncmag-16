@@ -1,0 +1,12 @@
+c:\users\gilf\documents\visual studio 2013\Projects\WebComponents\WebComponents\bin\WebComponents.dll.config
+c:\users\gilf\documents\visual studio 2013\Projects\WebComponents\WebComponents\bin\WebComponents.dll
+c:\users\gilf\documents\visual studio 2013\Projects\WebComponents\WebComponents\bin\WebComponents.pdb
+c:\users\gilf\documents\visual studio 2013\Projects\WebComponents\WebComponents\obj\Debug\WebComponents.csprojResolveAssemblyReference.cache
+c:\users\gilf\documents\visual studio 2013\Projects\WebComponents\WebComponents\obj\Debug\WebComponents.dll
+c:\users\gilf\documents\visual studio 2013\Projects\WebComponents\WebComponents\obj\Debug\WebComponents.pdb
+C:\Users\GILF\Desktop\Materials\DotNetCurry\WebComponents\WebComponents\WebComponents\bin\WebComponents.dll.config
+C:\Users\GILF\Desktop\Materials\DotNetCurry\WebComponents\WebComponents\WebComponents\bin\WebComponents.dll
+C:\Users\GILF\Desktop\Materials\DotNetCurry\WebComponents\WebComponents\WebComponents\bin\WebComponents.pdb
+C:\Users\GILF\Desktop\Materials\DotNetCurry\WebComponents\WebComponents\WebComponents\obj\Debug\WebComponents.csprojResolveAssemblyReference.cache
+C:\Users\GILF\Desktop\Materials\DotNetCurry\WebComponents\WebComponents\WebComponents\obj\Debug\WebComponents.dll
+C:\Users\GILF\Desktop\Materials\DotNetCurry\WebComponents\WebComponents\WebComponents\obj\Debug\WebComponents.pdb

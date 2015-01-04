@@ -1,0 +1,68 @@
+<template id="teamMemberTmpl">
+    <style>
+        .teamMember {
+            float: left;
+            width: 152px;
+            height: 285px;
+            border: 1px solid #262262;
+            background-color: #279bd4;
+            margin-bottom: 20px;
+        }
+
+            .teamMember > .photo {
+                height: 225px;
+                width: 150px;
+                background-color: #fff;
+                text-align: center;
+            }
+
+            .teamMember > .name {
+                color: #fff;
+                font-size: 15px;
+                width: 150px;
+                text-align: center;
+            }
+
+            .teamMember > .title {
+                color: #fff;
+                font-size: 12px;
+                width: 150px;
+                text-align: center;
+            }
+    </style>
+    <div title="Gil Fink" class="teamMember">
+        <div class="photo">
+            <img alt="" src="" width="150" height="225">
+        </div>
+        <div class="name"></div>
+        <div class="title"></div>
+    </div>
+</template>
+<script>
+    var thisDoc = document.currentScript.ownerDocument;
+    var teamMemberTmpl = thisDoc.querySelector('#teamMemberTmpl');
+
+    // Create a prototype for a new element that extends HTMLElement
+    var teamMemberPrototype = Object.create(HTMLElement.prototype);       
+
+    // Setup our Shadow DOM and clone the template
+    teamMemberPrototype.createdCallback = function () {
+        var root = this.createShadowRoot();
+        root.appendChild(document.importNode(teamMemberTmpl.content, true));
+
+        var img = root.querySelector(".teamMember > .photo img");
+        img.setAttribute('src', this.getAttribute('data-src'));
+        img.setAttribute('alt', this.getAttribute('data-alt'));
+
+        var name = root.querySelector('.name');
+        name.textContent = this.getAttribute('data-name');
+
+        var title = root.querySelector('.title');
+        title.textContent = this.getAttribute('data-title');
+    };
+
+    // Register our new element
+    var teamMember = document.registerElement('team-member', {
+        prototype: teamMemberPrototype
+    });
+</script>
